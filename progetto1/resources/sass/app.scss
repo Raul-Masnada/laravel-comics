@@ -1,0 +1,24 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  list-style-type: none;
+}
+
+@import "partizioni/variables";
+@import "partizioni/header";
+@import "partizioni/main";
+@import "partizioni/footer";

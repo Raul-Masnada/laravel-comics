@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+section.jumbotron {
+  background-image: url("/storage/images/jumbotron.jpg");
+  padding-top: 150px;
+  height: 450px;
+  position: relative;
+}
+
+section.main {
+  background-color: #1c1c1c;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+h1 {
+  position: absolute;
+  top: 547px;
+  left: 340px;
+  background-color: #0282f9;
+  padding: 15px 20px;
+  width: 260px;
+  font-size: 25px;
+  color: white;
+}
+
+.list-series {
+  padding-bottom: 30px;
+}
+
+.button-more {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+a {
+  color: white;
+  padding: 10px 50px;
+  background-color: #0282f9;
+}
+
+section.information-photo {
+  background-color: #0282f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section.footer-background {
+  background-image: url("/storage/images/dc-logo-bg.png"), url("/storage/images/footer-bg.jpg");
+  background-size: auto, cover;
+  background-repeat: no-repeat;
+  background-position: 75% 50%, center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.footer-info {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright {
+  padding: 30px 0;
+  color: #8e8e8e;
+  font-size: 14px;
+  width: 55%;
+}
+
+section.footer-pie {
+  background-color: #303030;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign {
+  border: 2px solid #0282f9;
+  padding: 10px;
+}
+
